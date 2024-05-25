@@ -1,0 +1,34 @@
+
+#fondo{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+#logo{
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: auto;
+}
+header{
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-between;
+}
+#menu{
+    background-color: blueviolet;
+}
+ul{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+li{
+    margin: 15px;
+}
+#galeria{
+    margin-top: 35px;
+}
